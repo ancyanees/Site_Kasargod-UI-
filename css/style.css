@@ -1,0 +1,88 @@
+
+/*  theme name: site (kasargod)
+	author:Ancy A
+	Date:11/02/2020
+	Time:4.00PM
+*/
+/* border */
+		.bg {
+			border:1px solid blue;
+		}
+/* background-image */
+		.bg_img{
+			background-image:url("../img/bg.jpg");
+			background-size:cover;
+			
+			
+		}
+/* form */
+	@media (max-width: 480px) {
+		  .form-wrap {
+			margin: 0 !important; } 
+		}
+
+	.btn-group {
+	  width: 100%; }
+	@media (max-width: 576px) {
+		.btn-group {
+			display: block; } 
+	}
+
+		.btn-group1 {
+		  padding: 24px;
+		  width: 50%;
+		  border-top-left-radius: 3px;
+		  border-bottom-left-radius: 3px;
+		  border: none; 
+		  }
+		  
+		  @media (max-width: 576px) {
+			.btn-group1 {
+			  width: 100%;
+			  border-radius: 3px;
+			  margin: 0 0 10px;
+			  padding: 17px; } 
+			  }
+
+		.btn-group2 {
+		  position: relative;
+		  padding: 24px;
+		  width: 45%;
+		  border-top: none;
+		  border-right: none;
+		  border-bottom: none;
+		  border-left: 1px solid #ccc; 
+		  }
+		  @media (max-width: 576px) {
+			.btn-group2 {
+			  width: 100%;
+			  border-radius: 3px;
+			  margin: 0 0 10px;
+			  padding: 17px; } 
+			}
+
+		.btn-form {
+		  font-weight: 400;
+		  font-size: 18px;
+		  padding: 17px;
+		  width: 27%;
+		  background: #ff3a6d;
+		  color: #ffffff;
+		  border: none;
+		  border-top-right-radius: 3px;
+		  border-bottom-right-radius: 3px; 
+		  }
+  
+		@media (max-width: 768px) {
+			.btn-form {
+			  width: auto; } 
+			}
+		@media (max-width: 576px) {
+			.btn-form {
+				width: 100%;
+				border-radius: 3px; }
+			}
+
+		.search-icon {
+		  font-size: 15px;
+		  padding-right: 10px; }
